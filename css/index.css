@@ -134,7 +134,7 @@ a{
 .sponsor{
     background-color: black;
     width: 100vw;
-    padding: 100px 400px;
+    padding: 220px 400px 50px 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;

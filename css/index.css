@@ -132,7 +132,7 @@ a{
 
 /* Sponsor  */
 .sponsor{
-    backgit ground-color: gray;
+    background-color: black;
     width: 100vw;
     padding: 100px 400px;
     display: flex;

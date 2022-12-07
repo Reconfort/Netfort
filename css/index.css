@@ -99,7 +99,7 @@ a{
     display: grid;
     grid-template-columns: auto auto auto;
 }
-.grid{
+.grids{
     /* background-color: red; */
     width: 100%;
     margin: 0 0 20px;
@@ -110,10 +110,10 @@ a{
     justify-content: center;
     align-items: center;
 }
-.grid img{
+.grids img{
     max-width: 100%;
 }
-.grid button{
+.grids button{
     background-color: black;
     transform: scale(0);
     color: white;
@@ -124,7 +124,7 @@ a{
     font-size: 0.5em;
     transition: ease-in-out 0.5s;
 }
-.grid:hover button{
+.grids:hover button{
     transform: scale(1);
     cursor: pointer;
 }
@@ -132,9 +132,9 @@ a{
 
 /* Sponsor  */
 .sponsor{
-    background-color: black;
+    backgit ground-color: gray;
     width: 100vw;
-    padding: 25px 400px;
+    padding: 100px 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;

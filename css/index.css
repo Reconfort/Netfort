@@ -11,7 +11,9 @@ html {
 body{
     background-image: url(../asset/bgBlack2.png);
     /* background-size: cover; */
+    /* position: fixed;  */
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 a{
     text-decoration: none;
@@ -110,7 +112,6 @@ a{
     grid-template-columns: auto auto auto;
 }
 .grids{
-    /* background-color: red; */
     width: 100%;
     margin: 0 0 20px;
     padding: 10px;
@@ -245,7 +246,6 @@ a{
     margin-top: -2rem;
 }
 .testimony .grid-container{
-    /* background-color: red; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -382,7 +382,6 @@ form{
 }
 form .wrapper{
     width: 100%;
-    /* background-color: red; */
     display: flex;
     gap: 10px;
 }
@@ -484,7 +483,7 @@ input[type="submit"]{
         overflow-x: hidden;
     }
     .header{
-        background-color: rgb(76, 76, 76);
+        background-color:black;
         position: fixed;
         display: flex;
         justify-content: space-between;
@@ -568,7 +567,7 @@ input[type="submit"]{
         display: none;
     }
     .grids{
-        /* background-color: red; */
+
         width: 100%;
         margin: 0 0 10px;
         padding: 7px;
@@ -601,7 +600,7 @@ input[type="submit"]{
     /* Sponsor */
     .sponsor{
         position: relative;
-        /* background-color: red; */
+
         width: 100vw;
         padding: 8rem 0.5rem 50px 0.5rem;
         display: flex;
@@ -804,7 +803,6 @@ input[type="submit"]{
     width: 100vw;
     /* height: 100vh; */
     padding: 10px 50px 10px 50px;
-    background-color: red;
     color: white;
 }
 
@@ -877,11 +875,11 @@ input[type="submit"]{
 /*Small screen Responsiveness */
 @media only screen and (max-width: 414px) {
     body{
-        background-color: black;
+        background-color: red;
         overflow-x: hidden;
     }
     .header{
-        background-color: rgb(76, 76, 76);
+        background-color:black;
         position: fixed;
         display: flex;
         justify-content: space-between;
@@ -968,7 +966,7 @@ input[type="submit"]{
         display: none;
     }
     .grids{
-        /* background-color: red; */
+
         width: 100%;
         margin: 0 0 10px;
         padding: 7px;
@@ -1000,7 +998,7 @@ input[type="submit"]{
     /* Sponsor */
     .sponsor{
         position: relative;
-        /* background-color: red; */
+
         width: 100vw;
         padding: 4rem 0 4rem 0;
         display: flex;

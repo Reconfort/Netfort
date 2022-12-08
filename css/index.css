@@ -350,7 +350,7 @@ a{
 /* Blog  */
 .blog{
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 100px 300px 50px 300px;
     background-color: transparent;
     color: white;
@@ -802,13 +802,72 @@ input[type="submit"]{
 /* Blog  */
 .blog{
     width: 100vw;
-    height: 100vh;
-    padding: 10px 50px 10px 0px;
-    background-color: black;
+    /* height: 100vh; */
+    padding: 10px 50px 10px 50px;
+    background-color: red;
     color: white;
 }
 
-    
+/* Contact  */
+
+.contact{
+    width: 100vw;
+    /* height: 100vh; */
+    padding: 15px 50px 15px 50px;
+    background-color: transparent;
+    color: white;
+}
+.contact .grids-container{
+    /* background: blue; */
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+form{
+    background-color: black;
+    width: 100vw;
+    padding: 4rem 4rem 4rem 2rem;
+    box-shadow: 1px 5px 100px black;
+}
+form .wrapper input{
+    width: 50%;
+    outline: none;
+    /* margin: 10px; */
+    padding: 8px 16px;
+    font-size: 1em;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #a8b1bb;
+    color: #a8b1bb;
+}
+form textarea{
+    font-size: 1em;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #a8b1bb;
+    margin-top: 1.5rem;
+    color: #a8b1bb;
+}
+input[type="submit"]{
+    background-color: transparent;
+    margin-top: 1rem;
+    padding: 1.5rem 3rem;
+    color: white;
+    border: none;
+    border: 1px solid #a8b1bb;
+    outline: none;
+    font-size: 1.2rem;
+}
+.info{
+    /* background-color:#a8b1bb; */
+    width: 100%;
+    padding: 2rem;
+}   
 }
 
 
@@ -974,4 +1033,108 @@ input[type="submit"]{
     .testimony .grid-container .right{
         display: none;
     }
+
+
+.contact{
+    width: 100vw;
+    /* height: 100vh; */
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+.contact .grids-container{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: black;
+    width: 100%;
+    padding: 0 0 0 50px;
+    box-shadow: 1px 5px 100px black;
+}
+form .wrapper{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+form .wrapper input{
+    width: 100%;
+    outline: none;
+    /* margin: 10px; */
+    padding: 8px 16px;
+    font-size: 1em;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #a8b1bb;
+    color: #a8b1bb;
+    margin-top: 10px;
+}
+form textarea{
+    font-size: 1em;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #a8b1bb;
+    margin-top: 1.5rem;
+    color: #a8b1bb;
+}
+input[type="submit"]{
+    background-color: transparent;
+    margin-top: 1rem;
+    padding: 1.5rem 3rem;
+    color: white;
+    border: none;
+    border: 1px solid #a8b1bb;
+    outline: none;
+    font-size: 1.2rem;
+}
+.info{
+    background-color:black;
+    width: 100%;
+    padding: 10px;
+}  
+
+
+
+
+
+
+
+/* footer  */
+.footer{
+    background-color: #1E1E1E;
+    width: 100vw;
+    color: white;
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul{
+    color: #a8b1bb;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    list-style: none;
+
+}
+.footer p{
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.footer p span{
+    color: #FF6464;
+    margin: 0 1rem 0 1rem;
+}
+
 }

@@ -111,9 +111,24 @@ legend{
 }
 .blog-grid .wrapper .grid button{
     transform: scale(0.7);
+    background-color: transparent;
+    color:#1E1E1E;
+    border: 1px solid #1E1E1E;
+    
+}
+.blog-grid .wrapper .grid button:hover{
+    transition: ease-in-out 0.7s;
+    background-color: #1E1E1E;
+    transform: scale(0.9);
+    cursor: pointer;
+    color: #d1d1d1;
+
 }
 .blog-grid .wrapper .grid h6{
     color: #1E1E1E;
+    font-size: 1.2rem;
+    color: #4c4c4c;
+    font-family: cursive;
 }
 .blog-grid .wrapper .grid h2{
     text-align: center;
@@ -131,6 +146,8 @@ legend{
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid #4c4c4c;
+    padding: 1rem 5rem;
+    color: #1E1E1E;
 }
 .paging button{
     transform: scale(0.6);

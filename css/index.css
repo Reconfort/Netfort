@@ -59,6 +59,7 @@ a{
 .hello img{
     width: 40%;
     margin-right: 4rem;
+    margin-top: 4rem;
 }
 .hello h2{
     font-size: 5rem;

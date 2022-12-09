@@ -355,7 +355,39 @@ a{
     background-color: transparent;
     color: white;
 }
-
+.blog .wrapper-grid{
+    /* background-color: #FF6464; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.blog .wrapper-grid .grid{
+    /* background-color: blue; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #1E1E1E;
+    transition: ease-in-out 0.5s;
+}
+.blog .wrapper-grid img{
+    width:98%
+}
+.blog .wrapper-grid .content{
+    position: absolute;
+    background: linear-gradient(180deg,transparent, white);
+    padding: 100px 10px 10px 10px;
+}
+.blog .wrapper-grid .grid:hover button{
+    transform: scale(1);
+    transition: ease-in-out 0.5s;
+}
+.blog .wrapper-grid .content button{
+    background-color: black;
+    padding: 0%;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    transform: scale(0);
+}
 
 /* Contact  */
 .contact{

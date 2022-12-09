@@ -376,7 +376,7 @@ a{
     position: absolute;
     background: linear-gradient(180deg,transparent, rgb(168, 168, 168));
     padding: 100px 0 10px 0;
-    width: 21%;
+    width: 20%;
 }
 .blog .wrapper-grid .grid:hover button{
     transform: scale(1);

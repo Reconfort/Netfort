@@ -109,6 +109,9 @@ legend{
     border-top: 1px solid #4c4c4c;
     border-right: 1px solid #4c4c4c;
 }
+.blog-grid .wrapper .grid button{
+    transform: scale(0.7);
+}
 .blog-grid .wrapper .grid h6{
     color: #1E1E1E;
 }

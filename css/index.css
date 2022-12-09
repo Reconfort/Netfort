@@ -374,8 +374,8 @@ a{
 }
 .blog .wrapper-grid .content{
     position: absolute;
-    background: linear-gradient(180deg,transparent, white);
-    padding: 100px 10px 10px 10px;
+    background: linear-gradient(180deg,transparent, rgb(168, 168, 168));
+    padding: 100px 0 10px 0;
 }
 .blog .wrapper-grid .grid:hover button{
     transform: scale(1);
@@ -387,6 +387,7 @@ a{
     color: white;
     padding: 0.8rem 1.5rem;
     transform: scale(0);
+    border: none;
 }
 
 /* Contact  */

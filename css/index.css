@@ -513,7 +513,7 @@ input[type="submit"]{
 
 
 /* Medium screen Responsiveness */
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 920px) {
     body{
         background-color: black;
         overflow-x: hidden;
@@ -914,9 +914,9 @@ input[type="submit"]{
 
 
 /*Small screen Responsiveness */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 512px) {
     body{
-        background-color: red;
+        background-color: black;
         overflow-x: hidden;
     }
     .header{
